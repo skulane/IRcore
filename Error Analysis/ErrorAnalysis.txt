@@ -1,7 +1,6 @@
 Fourthousand Analysis
-Improvement A) Add terms from top documents to the query [see Querry : 293831	how many power does iphone consume]
-Improvement B) No abriviation for countries or geographical locations [querry with fl and nz]
-Improvement C) Remove '-' in between characters in a passage and replace with ' '
+Improvement A) Add terms from top documents to the query [see Query : 293831	how many power does iphone consume]
+Improvement B) Clean data before indexing  [see Query 1185363 result include '-']
 
 Queries Analysed : 10 - 6 (Complete 0.0000)
 All metrics : 
@@ -19,9 +18,9 @@ ndcg_cut_100          	all	0.0014
 
 
 Query		:	1144750	[what vitamins if your hair is falling out]
-map                   	1144750	0.0009 --> Why lower than overall MAP?
+map                   	1144750	0.0009 
 recip_rank            	1144750	0.0019
-P_10                  	1144750	0.0000 --> Lower than overall
+P_10                  	1144750	0.0000 
 recall_1000           	1144750	0.5000
 ndcg                  	1144750	0.0677
 ndcg_cut_5            	1144750	0.0000
