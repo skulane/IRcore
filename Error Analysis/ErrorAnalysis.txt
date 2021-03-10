@@ -1,7 +1,7 @@
 Fourthousand Analysis
 Improvement A) Add terms from top documents to the query [see Querry : 293831	how many power does iphone consume]
 Improvement B) No abriviation for countries or geographical locations [querry with fl and nz]
-Improvement C) Remove '-' in between characters in a passage and replace with ' ' [Additional Analysis]
+Improvement C) Remove '-' in between characters in a passage and replace with ' '
 
 Queries Analysed : 10 - 6 (Complete 0.0000)
 All metrics : 

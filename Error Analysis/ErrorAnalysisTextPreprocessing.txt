@@ -1,0 +1,204 @@
+Error Analysis Text preprocessing
+
+All metrics : (Same as baseline)
+map                   	all	0.0010
+gm_map                	all	0.0000
+recip_rank            	all	0.0010
+P_10                  	all	0.0002
+recall_1000           	all	0.0043
+ndcg                  	all	0.0016
+ndcg_cut_5            	all	0.0010
+ndcg_cut_10           	all	0.0011
+ndcg_cut_100          	all	0.0014
+
+
+##
+Query 1
+1144750	what vitamins if your hair is falling out
+map                   	1144750	0.0009
+recip_rank            	1144750	0.0019
+P_10                  	1144750	0.0000
+recall_1000           	1144750	0.5000
+ndcg                  	1144750	0.0675 (used to be 0.0677)
+ndcg_cut_5            	1144750	0.0000
+ndcg_cut_10           	1144750	0.0000
+ndcg_cut_100          	1144750	0.0000
+
+No improvement
+
+Top Docs: (same as baseline)
+8421223
+2021408
+3207135
+
+##
+Query 2
+1006022 which biome has the greatest species diversity
+map                     1006022 0.0000
+recip_rank              1006022 0.0000
+P_10                    1006022 0.0000
+recall_1000             1006022 0.0000
+ndcg                    1006022 0.0000
+ndcg_cut_5              1006022 0.0000
+ndcg_cut_10             1006022 0.0000
+ndcg_cut_100            1006022 0.0000
+
+No change
+
+Top Docs: (same as baseline)
+8217017
+2958585
+3929308
+
+##
+Query 3
+293831  how many power does iphone consume
+map                     293831  0.0132
+recip_rank              293831  0.0132
+P_10                    293831  0.0000
+recall_1000             293831  1.0000
+ndcg                    293831  0.1596
+ndcg_cut_5              293831  0.0000
+ndcg_cut_10             293831  0.0000
+ndcg_cut_100            293831  0.1596
+
+All non zero metric improved slightly
+
+Top Docs: (same as baseline)
+8074960
+4643298
+1863778
+
+## 
+Query 4
+1025361 who coined the term thagomizer?sssssssssssss
+map                     1025361 0.1000
+recip_rank              1025361 0.1000
+P_10                    1025361 0.1000
+recall_1000             1025361 1.0000
+ndcg                    1025361 0.2891
+ndcg_cut_5              1025361 0.0000
+ndcg_cut_10             1025361 0.2891
+ndcg_cut_100            1025361 0.2891
+
+No change
+
+Top Docs: (same as baseline)
+4195914
+2349814
+2753019
+
+##
+Query 5
+1002852 where was lord of the rings filmed in nz
+map                     1002852 0.0095
+recip_rank              1002852 0.0095
+P_10                    1002852 0.0000
+recall_1000             1002852 1.0000
+ndcg                    1002852 0.1486
+ndcg_cut_5              1002852 0.0000
+ndcg_cut_10             1002852 0.0000
+ndcg_cut_100            1002852 0.0000
+
+Slight improve on non zero metrics
+
+Top Docs:
+3906338 {"id": "3906338", "contents": "The Tongariro Crossing is considered the best one day hike in New Zealand. It is a 19.4km hike that takes you through the area where they filmed Mordor in Lord of the Rings.he Tongariro Crossing is considered the best one day hike in New Zealand. It is a 19.4km hike that takes you through the area where they filmed Mordor in Lord of the Rings."}
+4166570 (used to be rank 1)
+4363218 (used to be rank 2)
+
+##
+Query 6
+1035201 who is leaving on gh
+map                     1035201 0.0000
+recip_rank              1035201 0.0000
+P_10                    1035201 0.0000
+recall_1000             1035201 0.0000
+ndcg                    1035201 0.0000
+ndcg_cut_5              1035201 0.0000
+ndcg_cut_10             1035201 0.0000
+ndcg_cut_100            1035201 0.0000
+
+No improvements
+
+Top Docs:
+4494764
+5272990 {"id": "5272990", "contents": "Jason Cook To Exit GH. Jason Cook, who joined GH in 2008 as Matt, is leaving the soap next month. The actor already has a slew of projects lined up to keep him busy. I was going to have to take several months off the show for all these other things I'm working on, he reports."}
+674786 {"id": "674786", "contents": "Tyler Christopher is leaving 'General Hospital' \u00e2\u0080\u0094 Nikolas has been recast at 'GH' with Nick Stabile. Get the details. Tyler Christopher is leaving 'General Hospital' \u00e2\u0080\u0094 Nikolas has been recast at 'GH' with Nick Stabile."}
+
+##
+Query 7
+1185363 amlodipine benazepril side effects urination
+map                     1185363 0.0000
+recip_rank              1185363 0.0000
+P_10                    1185363 0.0000
+recall_1000             1185363 0.0000
+ndcg                    1185363 0.0000
+ndcg_cut_5              1185363 0.0000
+ndcg_cut_10             1185363 0.0000
+ndcg_cut_100            1185363 0.0000
+
+No improvements
+
+Top Docs: (same as baseline)
+3115608
+3115607
+761954
+
+
+##
+Query 8
+435317  lacy rash causes
+map                     435317  0.0000
+recip_rank              435317  0.0000
+P_10                    435317  0.0000
+recall_1000             435317  0.0000
+ndcg                    435317  0.0000
+ndcg_cut_5              435317  0.0000
+ndcg_cut_10             435317  0.0000
+ndcg_cut_100            435317  0.0000
+
+No improvements
+
+Top Docs:
+4570970
+3088782
+3088789
+
+##
+Query 9
+681198  what is a didlo
+map                     681198  0.0000
+recip_rank              681198  0.0000
+P_10                    681198  0.0000
+recall_1000             681198  0.0000
+ndcg                    681198  0.0000
+ndcg_cut_5              681198  0.0000
+ndcg_cut_10             681198  0.0000
+ndcg_cut_100            681198  0.0000
+
+No imrovements
+
+Top Docs:
+2737045 (used to be rank 2)
+3058085 (used to be rank 1)
+6809641
+
+##
+Query 10
+804635  what is the allowable income for kid care fl
+map                     804635  0.0000
+recip_rank              804635  0.0000
+P_10                    804635  0.0000
+recall_1000             804635  0.0000
+ndcg                    804635  0.0000
+ndcg_cut_5              804635  0.0000
+ndcg_cut_10             804635  0.0000
+ndcg_cut_100            804635  0.0000
+
+No improvements
+
+Top Docs:
+7466562
+4696109 {"id": "4696109", "contents": "For many moms, running a home daycare is a solution to the child-care problem: You get to be with your kids while still bringing in an income.or many moms, running a home daycare is a solution to the child-care problem: You get to be with your kids while still bringing in an income."}
+4028042 (used to be rank 2)

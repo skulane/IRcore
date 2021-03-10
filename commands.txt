@@ -1,0 +1,24 @@
+Commands used:
+
+Building index in Ansirini
+	1. Parse to JSON
+	python tools/scripts/msmarco/convert_collection_to_jsonl.py \
+	 --collection-path collections/msmarco-passage/collection.tsv \
+	 --output-folder collections/msmarco-passage/collection_jsonl
+
+	2. Build index
+	sh target/appassembler/bin/IndexCollection -threads 9 -collection JsonCollection \
+	 -generator DefaultLuceneDocumentGenerator -input collections/msmarco-passage/collection_jsonl \
+	 -index indexes/msmarco-passage/lucene-index-msmarco -storePositions -storeDocvectors -storeRaw 
+
+If required to parse to .trec from .tsv
+	python tools/scripts/msmarco/convert_msmarco_to_trec_run.py \
+	 --input runs/run.msmarco-msmarco-trainQueries.tsv \
+	 --output runs/run.msmarco-msmarco-trainQueries.trec
+ 
+ Trec Eval commands
+	 tools/eval/trec_eval.9.0.4/trec_eval -c -q -mrecall.1000 -mmap -mndcg -m ndcg_cut.5,10,100 -mP.10 -mgm_map -mrecip_rank.10  collections/msmarco-passage/qrels.train.trec runs/run.msmarco-msmarco-trainFourthousand.trec > Eval_fourthousand.txt
+ 
+ 
+ 
+
