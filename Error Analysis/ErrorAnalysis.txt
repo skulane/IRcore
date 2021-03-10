@@ -1,0 +1,208 @@
+Fourthousand Analysis
+Improvement A) Add terms from top documents to the query [see Querry : 293831	how many power does iphone consume]
+Improvement B) No abriviation for countries or geographical locations [querry with fl and nz]
+Improvement C) Remove '-' in between characters in a passage and replace with ' ' [Additional Analysis]
+
+Queries Analysed : 10 - 6 (Complete 0.0000)
+All metrics : 
+map                   	all	0.0010
+gm_map                	all	0.0000
+recip_rank            	all	0.0010
+P_10                  	all	0.0002
+recall_1000           	all	0.0043
+ndcg                  	all	0.0016
+ndcg_cut_5            	all	0.0010
+ndcg_cut_10           	all	0.0011
+ndcg_cut_100          	all	0.0014
+
+##
+
+
+Query		:	1144750	[what vitamins if your hair is falling out]
+map                   	1144750	0.0009 --> Why lower than overall MAP?
+recip_rank            	1144750	0.0019
+P_10                  	1144750	0.0000 --> Lower than overall
+recall_1000           	1144750	0.5000
+ndcg                  	1144750	0.0677
+ndcg_cut_5            	1144750	0.0000
+ndcg_cut_10           	1144750	0.0000
+ndcg_cut_100          	1144750	0.0000
+
+TOP Document	:	8421223	Studies have shown that low vitamin D levels cause hair loss. Too much vitamin D: High levels of vitamin D can also cause hair loss, which is why it is important to have the right balance. Iron deficiency: Iron is important for your hair, nails, and skin. Too little can cause hair to fall out or make the hair follicles smaller so your hair strands end up being thinner. Calcium deficiency: Calcium is also important for your hair, and if you are not getting enough vitamin D (which is needed for absorbing calcium), your hair may fall out. Stress: Stress causes hair loss.
+
+Second Doc	:{"id": "2021408", "contents": "Iron deficiency: Iron is important for your hair, nails, and skin. Too little can cause hair to fall out or make the hair follicles smaller so your hair strands end up being thinner. Calcium deficiency: Calcium is also important for your hair, and if you are not getting enough vitamin D (which is needed for absorbing calcium), your hair may fall out. Stress: Stress causes hair loss. This is widely known, and seeing your hair fall out can just add to that stress! It takes from 1 - 4 months after a stressful incident for the hair to start falling out. Lack of sleep: If you are not sleeping well, this can also have a negative effect on your hair. The type of shampoo you use: Shampoo may also be making your hair fall out. Natural shampoos are much better for your hair and scalp than chemically-based ones. Food allergies: Various food allergies, especially to dairy, can cause your hair to fall out."}
+
+Third Doc	: {"id": "3207135", "contents": "And in fact, protein is the most essential basic nutrient for your hair growth. If you are being at lack of protein and you experience it frequently, your body is more likely to use protein efficiently and even save protein by altering the phase of growing hairs into the phase of resting.-Vitamins deficiencies and hair loss. Lack of B vitamins (such as B1 and B2) can lead to undernourishment of cells of hair follicles. As a result, the hair follicles cannot grow optimally and also tends to fall out easily. Vitamin B-12 is also crucial."}
+
+Fourth 	: {"id": "4774219", "contents": "B-Vitamins deficiencies and hair loss. Lack of B vitamins (such as B1 and B2) can lead to undernourishment of cells of hair follicles. As a result, the hair follicles cannot grow optimally and also tends to fall out easily."}
+
+
+Fifth		:{"id": "5971248", "contents": "B Vitamins. As stated previously, stress is often one of the main causes of hair loss. B vitamins have been scientifically proven to help reduce stress. There are many types of B vitamins, but the ones that are most beneficial for hair loss are B12 and Inositol. B12 is found in hair itself, so if your body is deficient in it, it\u00e2\u0080\u0099s easy to see why your hair could stop growing or even fall out. Many people, especially vegetarians, are deficient in vitamin B12, as it is most commonly found in eggs and meat."}
+ 
+
+##
+
+Query	:	 1006022	which biome has the greatest species diversity
+map                   	1006022	0.0000
+recip_rank            	1006022	0.0000
+P_10                  	1006022	0.0000
+recall_1000           	1006022	0.0000
+ndcg                  	1006022	0.0000
+ndcg_cut_5            	1006022	0.0000
+ndcg_cut_10           	1006022	0.0000
+ndcg_cut_100          	1006022	0.0000
+ 
+Top Doc	:	{"id": "8217017", "contents": "The tropical rainforest biome has the greatest diversity of life of all terrestrial biomes. According to Nature Education, it is estimated that the tropical forest biome contains over half of the... The tropical rainforest biome has the greatest diversity of life of all terrestrial biomes. According to Nature Education, it is estimated that the tropical forest biome contains over half of the terrestrial species on Earth. Continue Reading."}
+Second Doc	:	{"id": "2958585", "contents": "The rainforest biome contains 50% of all the species in the world, making it the most diverse biome, and home to the greatest amount of species. 1 person found this useful.-) In fact, some biome lists omit the ocean biome entirely, which is really unfort \u00e2\u0080\u00a6 unate. Ocean biomass does tend to be less dense than that of rainforests (per unit volume), but the original question seemed to be about size, not density."}
+Third Doc	:	{"id": "3929308", "contents": "The rain forest has the greatest diversity of animals and plants living in it. The ocean has the greatest biodiversity of any biome. The rainforest has the greatest biodiver \u00e2\u0080\u00a6 sity of any terrestrial biome. 7 people found this useful."}
+
+
+
+##
+
+
+Query	:	293831	how many power does iphone consume
+map                   	293831	0.0120
+recip_rank            	293831	0.0120
+P_10                  	293831	0.0000
+recall_1000           	293831	1.0000
+ndcg                  	293831	0.1564
+ndcg_cut_5            	293831	0.0000
+ndcg_cut_10           	293831	0.0000
+ndcg_cut_100          	293831	0.1564
+ Top Doc: {"id": "8074960", "contents": "Does Iphones and Ipads Support dual band ac like (netgear r6200) Does Iphone 5, 4s and Ipads support dual band frequencies? solved how to tell if this router is dual band or not? How to get 5Ghz priority through Access Point on dual-band router? How does the antec HCM and the TRUE POWER work with dual rails?"}
+
+ second Doc:{"id": "4643298", "contents": "How many megapixels does the iPhone 5c have? The iPhone 5c has an 8 megapixel camera on the rear and a 1.2 megapixel camera on the front. It has the same camera as the iPhone 5 and the iPhone 5s."}
+
+
+##
+
+
+Query	:	1025361	who coined the term thagomizer?sssssssssssss
+map                   	1025361	0.1000
+recip_rank            	1025361	0.1000
+P_10                  	1025361	0.1000
+recall_1000           	1025361	1.0000
+ndcg                  	1025361	0.2891
+ndcg_cut_5            	1025361	0.0000
+ndcg_cut_10           	1025361	0.2891
+ndcg_cut_100          	1025361	0.2891
+
+Top Doc : {"id": "4195914", "contents": "This Far Side cartoon is the source of the term Thagomizer. The term thagomizer was coined by Gary Larson in a 1982 Far Side comic strip, in which a group of cavemen in a faux-modern lecture hall are taught by their caveman professor that the spikes were named after the late Thag Simmons."}
+
+Second Doc: {"id": "2349814", "contents": "Top definition. Thagomizer. Term coined by Gary Larson that is most commonly used to describe the arrangement of spikes at the tip of a stegosaur's tail. can be used to describe any such spike arrangement. Paleolithic teacher: This end is called the 'Thagomizer'...after the late Thag Simmons.."}
+
+
+##
+
+
+1002852	where was lord of the rings filmed in nz
+map                   	1002852	0.0091
+recip_rank            	1002852	0.0091
+P_10                  	1002852	0.0000
+recall_1000           	1002852	1.0000
+ndcg                  	1002852	0.1472
+ndcg_cut_5            	1002852	0.0000
+ndcg_cut_10           	1002852	0.0000
+ndcg_cut_100          	1002852	0.0000
+
+Top Doc : {"id": "4166570", "contents": "\u00e2\u0080\u0094. The Lord of the Rings film trilogy comprises three live action fantasy epic films; The Lord of the Rings: The Fellowship of the Ring (2001), The Lord of the Rings: The Two Towers (2002) and The Lord of the Rings: The Return of the King (2003)."}
+Second Doc : {"id": "4363218", "contents": "The Lord of the Rings: The Fellowship of the Ring (2001), The Lord of the Rings: The Two Towers (2002), and The Lord of the Rings: The Return of the King (2003) were filmed simultaneously."}
+Third Doc : {"id": "5655177", "contents": "Three films have won 11 Oscars. The first to achieve the record was Ben-Hur (USA 1959) which won from 12 nominations on 4 April 1960, followed by Titanic (USA 1997) from 14 nominations on 23 March 1998 and The Lord of the Rings: The Return of the King (NZ/USA 2003) which won all 11 of its nominations on 29 February 2004."}
+
+##
+
+Query : 1035201	who is leaving on gh
+map                   	1035201	0.0000
+recip_rank            	1035201	0.0000
+P_10                  	1035201	0.0000
+recall_1000           	1035201	0.0000
+ndcg                  	1035201	0.0000
+ndcg_cut_5            	1035201	0.0000
+ndcg_cut_10           	1035201	0.0000
+ndcg_cut_100          	1035201	0.0000
+First : {"id": "4494764", "contents": "Category: Actor, Character Tags: GH Lante, is Lulu leaving GH, Jen Lilley to play Lulu on GH, Julie Marie Berman last taping on set of GH, Julie Marie Berman leaving General Hospital, Lulu leaving GH, Lulu recast, Lulu Spencer, Lulu Spencer Falconeri, Lulu's last day on set of GH Comments off. 19. Feb 2013."}
+Second : {"id": "5272990", "contents": "Jason Cook To Exit GH. Jason Cook, who joined GH in 2008 as Matt, is leaving the soap next month. The actor already has a slew of projects lined up to keep him busy. I was going to have to take several months off the show for all these other things I'm working on, he reports."}
+Third : {"id": "6674786", "contents": "Inflammatory arthritis is a group of diseases which includes: rheumatoid arthritis, psoriatic arthropathy, inflammatory bowel disease, adult-onset Still's disease, scleroderma, juvenile idiopathic arthritis and systemic lupus erythematosus (SLE).nflammatory arthritis is a group of diseases which includes: rheumatoid arthritis, psoriatic arthropathy, inflammatory bowel disease, adult-onset Still's disease, scleroderma, juvenile idiopathic arthritis and systemic lupus erythematosus (SLE)."}
+
+Fourth : {"id": "4287587", "contents": "U.S. Manufacturers and distributors need to reclassify chemicals and send GHS compliant safety data sheets and labels by June 1, 2015. Don't let these critical GHS deadlines slip by. Leave the complicated process of MSDS authoring and GHS compliance to the experts. Our team of authors is ready to help you."}
+
+
+##
+
+1185363	amlodipine benazepril side effects urination
+map                   	1185363	0.0000
+recip_rank            	1185363	0.0000
+P_10                  	1185363	0.0000
+recall_1000           	1185363	0.0000
+ndcg                  	1185363	0.0000
+ndcg_cut_5            	1185363	0.0000
+ndcg_cut_10           	1185363	0.0000
+ndcg_cut_100          	1185363	0.0000
+First : {"id": "3115608", "contents": "AMLODIPINE BESYLATE-BENAZEPRIL Side Effects by Likelihood and Severity COMMON side effects"}
+Second :{"id": "3115607", "contents": "Drug information on Lotrel (amlodipine and benazepril), includes drug pictures, side effects, drug interactions, directions for use, symptoms of overdose, and what to avoid."}
+Third : {"id": "761954", "contents": "amlodipine-benazepril oral and miconazole nitrate top. amlodipine-benazepril oral will increase the level or effect of miconazole nitrate top by affecting hepatic/intestinal enzyme CYP3A4 metabolism.iconazole nitrate top will increase the level or effect of amlodipine-benazepril oral by altering drug metabolism. Patient Drug Interactions Source: RxList. \u00c2\u00a9 2015 RxList, Inc. Minor Minor or non-significant interaction."}
+Fourth : {"id": "761955", "contents": "miconazole nitrate top and amlodipine-benazepril oral. miconazole nitrate top will increase the level or effect of amlodipine-benazepril oral by affecting hepatic/intestinal enzyme CYP3A4 metabolism.iconazole nitrate top will increase the level or effect of amlodipine-benazepril oral by altering drug metabolism. Patient Drug Interactions Source: RxList. \u00c2\u00a9 2015 RxList, Inc. Minor Minor or non-significant interaction."}
+Fifth : {"id": "761953", "contents": "Drug interactions with amlodipine-benazepril oral and miconazole nitrate top. amlodipine-benazepril oral brand names and other generic formulations include: Lotrel Oral. All generic drug interactions for amlodipine-benazepril oral (lists will include brand and generic names):iconazole nitrate top will increase the level or effect of amlodipine-benazepril oral by altering drug metabolism. Patient Drug Interactions Source: RxList. \u00c2\u00a9 2015 RxList, Inc. Minor Minor or non-significant interaction."}
+
+
+##
+
+435317	lacy rash causes
+map                   	435317	0.0000
+recip_rank            	435317	0.0000
+P_10                  	435317	0.0000
+recall_1000           	435317	0.0000
+ndcg                  	435317	0.0000
+ndcg_cut_5            	435317	0.0000
+ndcg_cut_10           	435317	0.0000
+ndcg_cut_100          	435317	0.0000
+
+First : {"id": "4570970", "contents": "After a child has had a rash caused by a virus, his or her body generally builds an immunity to that virus. This immunity protects the child from getting that specific viral illness and rash again. Common rashes caused by viruses include: 1  Chickenpox (varicella).2  This rash is a common, contagious illness caused by a type of herpes virus. 3  Fifth disease. 4  This facial rash looks like the cheeks have been slapped. 5  It also causes a lacy, pink rash on the arms and legs, torso, and buttocks.ommon rashes caused by viruses include: 1  Chickenpox (varicella). 2  This rash is a common, contagious illness caused by a type of herpes virus. 3  Fifth disease. 4  This facial rash looks like the cheeks have been slapped. 5  It also causes a lacy, pink rash on the arms and legs, torso, and buttocks."}
+
+Second : {"id": "3088782", "contents": "Common rashes caused by viruses include: 1  Chickenpox (varicella). 2  This rash is a common, contagious illness caused by a type of herpes virus. 3  Fifth disease. 4  This facial rash looks like the cheeks have been slapped. 5  It also causes a lacy, pink rash on the arms and legs, torso, and buttocks."}
+
+Third : {"id": "3088789", "contents": "1 Chickenpox (varicella). 2  This rash is a common, contagious illness caused by a type of herpes virus. 3  Fifth disease. 4  This facial rash looks like the cheeks have been slapped. 5  It also causes a lacy, pink rash on the arms and legs, torso, and buttocks. 6  Roseola (roseola infantum)."}
+
+
+##
+
+681198	what is a didlo
+map                   	681198	0.0000
+recip_rank            	681198	0.0000
+P_10                  	681198	0.0000
+recall_1000           	681198	0.0000
+ndcg                  	681198	0.0000
+ndcg_cut_5            	681198	0.0000
+ndcg_cut_10           	681198	0.0000
+ndcg_cut_100          	681198	0.0000
+
+First : {"id": "3058085", "contents": "What's your, what's your, what's your, what's your favourite. What's your, what's your, what's your, what's your favourite. What's your, what's your, what's your favorite. What's your, what's your, what's your, what's your, what's your."}
+
+Second : {"id": "2737045", "contents": "whats good; whats gooday [whats good] B; What's good boys? whats good family? what's good for the geese? whats good in the hood; What's good mo; What's good nigga; What's good wit chu; what's good with the butt? Whats good wit it; whats goody; What's goodybags? What's Goy? What's Grapes? What's Gravity; What's gravy; whats gravy in the navy; what's growin' long; whats guanin"}
+
+Third : {"id": "6809641", "contents": "20 words related to what it do whats up what s up what it is what up whats good hello wassup sup hi what s good hey whats crackin bay area how are you whats going on whats poppin c town holla hyphy what is it0 words related to what it do whats up what s up what it is what up whats good hello wassup sup hi what s good hey whats crackin bay area how are you whats going on whats poppin c town holla hyphy what is it"}
+
+Fourth : {"id": "1147809", "contents": "what is: tagamet, used for; and what is ... 58. what is: zantac, used for; and what is ... 59. what is: pepcid, used for; and what is ... 60. what is: bi-citra, used for; and what ... 61. what is: glucagon, used for; and what ..."}
+
+###
+804635	what is the allowable income for kid care fl
+
+map                   	804635	0.0000
+recip_rank            	804635	0.0000
+P_10                  	804635	0.0000
+recall_1000           	804635	0.0000
+ndcg                  	804635	0.0000
+ndcg_cut_5            	804635	0.0000
+ndcg_cut_10           	804635	0.0000
+ndcg_cut_100          	804635	0.0000
+	
+	
+First : {"id": "7466562", "contents": "Qualified Income Trust Information Sheet. What is a Qualified Income Trust? If your income is over the limit to qualify for Medicaid long-term care services (including. nursing home care), a Qualified Income Trust (QIT) allows you to become eligible by. placing income into an account each month that you need Medicaid."}
+
+Second : {"id": "4028042", "contents": "\u00e2\u0080\u009cA single parent with a couple kids can easily get $35,000 a year in total benefits between the health care and the earned income credit and the FoodShare and the low-income housing and what have you. \u00e2\u0080\u00a6 That\u00e2\u0080\u0099s after taxes.\u00e2\u0080\u009d. \u00e2\u0080\u0094 Incoming Rep. Glenn Grothman (R-Wis.), on UpFront with Mike Gousha, Nov. 30, 2014."}
+
+Third : {"id": "7517629", "contents": "You would need to fill out Form T778. The limitation to how much you can claim is dependent on your children's ages (for each kid under 6, you can claim $7,000 and for each kid over 6, $4,000) and the lower income earner's net income and the actual child care expenses paid.ou would need to fill out Form T778. The limitation to how much you can claim is dependent on your children's ages (for each kid under 6, you can claim $7,000 and for each kid over 6, $4,000) and the lower income earner's net income and the actual child care expenses paid."}
+
+Fourth : {"id": "1954866", "contents": "A credit is allowed for income taxes paid to another state on income which is taxable in both states. A child and dependent care credit allows you to claim 7% of your federal allowable expenses for the care. Additions to Income. Certain items of income must be added back to your federal taxable income."}
+

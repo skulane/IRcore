@@ -1,0 +1,233 @@
+Error analysis of Pseudo Relevance Feedback
+
+All metrics :
+map                   	all	0.0008
+gm_map                	all	0.0000
+recip_rank            	all	0.0009
+P_10                  	all	0.0002
+recall_1000           	all	0.0042
+ndcg                  	all	0.0014
+ndcg_cut_5            	all	0.0009
+ndcg_cut_10           	all	0.0010
+ndcg_cut_100          	all	0.0013
+
+Query 1
+1144750 what vitamins if your hair is falling out hair fall also vitamin calcium cause loss important stress iron deficiency follicles protein may lack levels much nails skin little
+
+map                     1144750 0.0047
+recip_rank              1144750 0.0055
+P_10                    1144750 0.0000
+recall_1000             1144750 1.0000
+ndcg                    1144750 0.1498
+ndcg_cut_5              1144750 0.0000
+ndcg_cut_10             1144750 0.0000
+ndcg_cut_100            1144750 0.0000
+
+Improved results!!
+
+Top Docs : 
+8421223
+2021408
+3207135
+4774219
+588340  (new)
+
+##
+
+Query 2
+1006022 which biome has the greatest species diversity biome greatest tropical rainforest terrestrial diversity forest contains species ocean life biomes according nature education estimated half found useful â
+map                     1006022 0.0000
+recip_rank              1006022 0.0000
+P_10                    1006022 0.0000
+recall_1000             1006022 0.0000
+ndcg                    1006022 0.0000
+ndcg_cut_5              1006022 0.0000
+ndcg_cut_10             1006022 0.0000
+ndcg_cut_100            1006022 0.0000
+
+No change in results
+Top Docs:
+8217017
+3929308 (used to be rank 3)
+2958585 (used to be rank 2)
+
+##
+
+Query 3
+293831  how many power does iphone consume dual iphone band many camera ipads support 5 router power 5c megapixel 1 watts electricity gas furnace consume normal peak
+map                     293831  0.0385
+recip_rank              293831  0.0385
+P_10                    293831  0.0000
+recall_1000             293831  1.0000
+ndcg                    293831  0.2103
+ndcg_cut_5              293831  0.0000
+ndcg_cut_10             293831  0.0000
+ndcg_cut_100            293831  0.2103
+
+All non zero metrics improved!!
+
+Top Docs
+8074960 
+1863778 (new)
+4643298 (used to be rank 2)
+
+##
+
+Query 4
+
+1002852 where was lord of the rings filmed in nz lord rings return king 2003 usa nominations three films fellowship ring 2001 two towers 2002 11 â film trilogy comprises
+map                     1002852 0.0106
+recip_rank              1002852 0.0106
+P_10                    1002852 0.0000
+recall_1000             1002852 1.0000
+ndcg                    1002852 0.1522
+ndcg_cut_5              1002852 0.0000
+ndcg_cut_10             1002852 0.0000
+ndcg_cut_100            1002852 0.1522 --> was 0.0000
+
+Improved results!
+
+Top Docs:
+4166570 
+5959907 (new)
+4363218 (used to be rank 2)
+
+##
+
+Query 5
+1025361 who coined the term thagomizer?sssssssssssss term thagomizer far side coined gary larson spikes arrangement 1982 comic late thag simmons used describe cartoon source strip group
+map                     1025361 0.5000
+recip_rank              1025361 0.5000
+P_10                    1025361 0.1000
+recall_1000             1025361 1.0000
+ndcg                    1025361 0.6309
+ndcg_cut_5              1025361 0.6309
+ndcg_cut_10             1025361 0.6309
+ndcg_cut_100            1025361 0.6309
+
+Improved!
+
+Top Docs:
+4195914
+2349810 (new)
+2804547 (new)
+
+## 
+
+Query 6
+1002852 where was lord of the rings filmed in nz lord rings return king 2003 usa nominations three films fellowship ring 2001 two towers 2002 11 â film trilogy comprises
+map                     1002852 0.0106
+recip_rank              1002852 0.0106
+P_10                    1002852 0.0000
+recall_1000             1002852 1.0000
+ndcg                    1002852 0.1522
+ndcg_cut_5              1002852 0.0000
+ndcg_cut_10             1002852 0.0000
+ndcg_cut_100            1002852 0.1522 --> was 0.0000
+
+Improved!
+
+Top Docs:
+4166570
+5959907 (new)
+4363218 (used to be rank 2)
+
+## 
+
+Query 7
+1035201 who is leaving on gh gh lulu leaving recast actor julie marie berman last set spencer jason cook tyler christopher 'general hospital' â nikolas 'gh'
+map                     1035201 0.0000
+recip_rank              1035201 0.0000
+P_10                    1035201 0.0000
+recall_1000             1035201 0.0000
+ndcg                    1035201 0.0000
+ndcg_cut_5              1035201 0.0000
+ndcg_cut_10             1035201 0.0000
+ndcg_cut_100            1035201 0.0000
+
+No improvement
+
+Top Docs
+4494764
+674786 (new)
+4494758 (new)
+
+##
+
+Query 8
+1185363 amlodipine benazepril side effects urination amlodipine benazepril drug side effects oral nitrate top interactions miconazole increase level effect metabolism rxlist minor besylate likelihood severity common
+map                     1185363 0.0000
+recip_rank              1185363 0.0000
+P_10                    1185363 0.0000
+recall_1000             1185363 0.0000
+ndcg                    1185363 0.0000
+ndcg_cut_5              1185363 0.0000
+ndcg_cut_10             1185363 0.0000
+ndcg_cut_100            1185363 0.0000
+
+No improvement!
+
+Top Docs
+761954 (used to be rank 3)
+761955 (used to be rank 4)
+761952 (new)
+
+## 
+
+Query 9
+435317  lacy rash causes rash caused virus common illness 1 chickenpox varicella 2 contagious type herpes 3 fifth disease 4 facial looks like cheeks
+map                     435317  0.0033
+recip_rank              435317  0.0033
+P_10                    435317  0.0000
+recall_1000             435317  1.0000
+ndcg                    435317  0.1214
+ndcg_cut_5              435317  0.0000
+ndcg_cut_10             435317  0.0000
+ndcg_cut_100            435317  0.0000
+
+Improved, all used to be zero
+
+Top Docs
+42321   (new)
+4570970 (used to be rank 1)
+3088782 (used to be rank 2)
+
+##
+
+Query 10
+681198  what is a didlo what's whats good favourite wit gravy words related hello wassup sup hi hey crackin bay area going poppin c town
+map                     681198  0.0000
+recip_rank              681198  0.0000
+P_10                    681198  0.0000
+recall_1000             681198  0.0000
+ndcg                    681198  0.0000
+ndcg_cut_5              681198  0.0000
+ndcg_cut_10             681198  0.0000
+ndcg_cut_100            681198  0.0000
+
+No Improvement!
+
+Top Docs
+6809641 (used to be rank 3)
+8776685 (new)
+2737045 (used to be rnak 2)
+
+##
+
+Query 11
+804635  what is the allowable income for kid care fl income care 000 â claim kid 6 qualified trust need medicaid would fill form t778 limitation much dependent children's ages
+map                     804635  0.0026
+recip_rank              804635  0.0026
+P_10                    804635  0.0000
+recall_1000             804635  1.0000
+ndcg                    804635  0.1166
+ndcg_cut_5              804635  0.0000
+ndcg_cut_10             804635  0.0000
+ndcg_cut_100            804635  0.0000
+
+Improved, all used to be zero
+
+Top Docs
+7517629 (used to be rank 3)
+7466562 (used to be rank 1)
+7475384 (new)
